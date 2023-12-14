@@ -1,0 +1,95 @@
+*{  
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(#FFECD6, #4CB9E7, #3559E0, #0F2167);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+}
+section{
+    width: 700px;
+    background-color: white;
+    padding:  30px 30px;
+    
+}
+input:hover{
+    background-color: lightblue;
+}
+h1{
+    font-size: 30px;
+    padding-bottom: 6px;
+    color: black;
+   
+}
+.main-user{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.allsec{
+    width: 250px;
+    padding-bottom: 15px;
+    color: black;
+    font-size: 20px;
+}
+.allsec input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 2px solid gray;
+
+}
+.gender_title{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.gender{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+    color:black;
+}
+.Register input{ 
+    display: block;
+    width: 600px;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    background: linear-gradient(#FFECD6, #4CB9E7, #3559E0, #0F2167)
+}
+@media(max-width: 600px){
+    body{
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+    }
+    .section{
+        width: 100%;
+        height: 100%;
+    }
+    .esteban{
+        margin: 15px;
+        width: 100%;
+        height: 100%;
+    }
+    .gender{
+        width: 100%;
+    }
+    label{
+        display: flex;
+        flex-direction: row;
+        max-height: 250px;
+    }
+}
